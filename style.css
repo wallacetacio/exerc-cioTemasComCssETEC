@@ -1,14 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&family=Shojumaru&display=swap');
+
 body {
+    background-image: url(tianshu-liu-SBK40fdKbAg-unsplash.jpg);
+    background-size: cover;
+    color: #483C37;
 }
 
 main#container {
+    background-color: #BC5F49;
+    background-image: linear-gradient(to bottom, #bc5e49ee 0%, #744139ea 100%);
 }
 
-h1.titulo {
+h1.titulo /*especifica tag com a classe*/ {
+    color: #DED8CF;
+    font-family: 'Shojumaru', cursive;
 }
 
 p.frase {
+    font-family: 'MedievalSharp', cursive;
+    font-weight: bold;
 }
 
 p.autor {
+    color: #DED8CF;
+    font-style: italic;
 }
