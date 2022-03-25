@@ -3,12 +3,12 @@
 body {
     background-image: url(tianshu-liu-SBK40fdKbAg-unsplash.jpg);
     background-size: cover;
-    color: #483C37;
+    color: #1C2125;
 }
 
 main#container {
-    background-color: #BC5F49;
-    background-image: linear-gradient(to bottom, #bc5e49ee 0%, #744139ea 100%);
+    border: 5px  groove #483C37;    
+    background-image: linear-gradient(to bottom, #bc5e49c2 0%, #68372fc5 100%);
 }
 
 h1.titulo /*especifica tag com a classe*/ {
